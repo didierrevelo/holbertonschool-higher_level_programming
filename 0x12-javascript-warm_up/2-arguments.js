@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Write a script that prints a message
+// Write a script that prints a message
 const arguments = process.argv.length;
 if (arguments === 2) {
     console.log('No argument');
