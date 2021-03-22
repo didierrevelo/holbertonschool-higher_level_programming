@@ -7,5 +7,5 @@ if (arguments === 2) {
 } else if (arguments === 3) {
     console.log('Argument found');
 } else {
-    console.log('Argument found')
+    console.log('Argument found');
 }
