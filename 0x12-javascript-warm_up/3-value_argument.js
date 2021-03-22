@@ -3,7 +3,6 @@
 const arguments = process.argv[2];
 if (arguments === undefined) {
   console.log('No argument');
-}
-else {
+} else {
   console.log(arguments);
 }
