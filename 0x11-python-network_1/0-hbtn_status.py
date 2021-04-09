@@ -8,5 +8,5 @@ with request.urlopen('https://intranet.hbtn.io/status') as response:
     print("Body respose:")
     print("\t- type: {}".format(type(html)))
     print("\t- content: {}".format(html))
-    html2 = html.decode('utf-8')
-    print("\t- utf8 content: {}".format(html2))
+    html = html.decode('utf-8')
+    print("\t- utf8 content: {}".format(html))
