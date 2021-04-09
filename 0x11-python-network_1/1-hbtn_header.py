@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import urllib.request
 """
 1-hbtn_header.py
 """
+import urllib.request
 import sys
 
 if __name__ == '__main__':
