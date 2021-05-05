@@ -3,7 +3,6 @@
 const request = (require('request'));
 const data = process.argv;
 
-request.get(data[2])    .on('response', function (response) {
-  
+request.get(data[2]).on('response', function (response) {
   console.log('code: %d\n\n', response.statusCode);
 });
